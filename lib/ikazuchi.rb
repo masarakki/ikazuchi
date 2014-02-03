@@ -1,5 +1,3 @@
 require "ikazuchi/version"
-
-module Ikazuchi
-  # Your code goes here...
-end
+require "ikazuchi/definition"
+require 'ikazuchi/railtie' if defined? Rails

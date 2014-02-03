@@ -1,0 +1,36 @@
+source 'https://rubygems.org'
+
+gem 'kaminari'
+gem 'http_accept_language'
+
+group :development, :test do
+  gem 'guard'
+  gem 'rspec-rails'
+  gem 'spork-rails'
+  gem 'guard-rspec'
+  gem 'gaurd-spork'
+  gem 'libnotify', :require => false
+  gem 'growl', :require => false
+
+  gem 'factory_girl_rails'
+  gem 'simplecov', :require => false
+
+  gem 'pry'
+  gem 'pry-rails'
+  gem 'pry-doc'
+  gem 'pry-stack_explorer'
+  gem 'pry-byebug'
+
+  gem 'better_errors'
+  gem 'binding_of_caller'
+  gem 'tapp'
+  gem 'awesome_print'
+
+  gem 'quiet_assets'
+  gem 'rack-mini-profiler'
+end
+
+group :development do
+  gem 'capistrano'
+  gem 'capistrano_colors'
+end
