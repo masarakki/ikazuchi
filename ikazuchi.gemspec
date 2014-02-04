@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["masaki@hisme.net"]
   spec.description   = %q{meta-package of useful gems for rails development}
   spec.summary       = %q{meta-package of useful gems for rails development}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/masarakki/ikazuchi"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
