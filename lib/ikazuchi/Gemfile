@@ -31,6 +31,5 @@ group :development, :test do
 end
 
 group :development do
-  gem 'capistrano'
-  gem 'capistrano_colors'
+  gem 'capistrano', '>= 2.13.5'
 end
