@@ -29,7 +29,3 @@ group :development, :test do
   gem 'quiet_assets'
   gem 'rack-mini-profiler'
 end
-
-group :development do
-  gem 'capistrano', '>= 2.13.5'
-end
