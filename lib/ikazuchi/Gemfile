@@ -6,6 +6,7 @@ gem 'http_accept_language'
 group :development, :test do
   gem 'spring'
   gem 'guard'
+  gem 'guard-spring'
   gem 'rspec-rails'
   gem 'guard-rspec'
   gem 'libnotify', :require => false
