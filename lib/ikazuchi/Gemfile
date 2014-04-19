@@ -4,11 +4,10 @@ gem 'kaminari'
 gem 'http_accept_language'
 
 group :development, :test do
+  gem 'spring'
   gem 'guard'
   gem 'rspec-rails'
-  gem 'spork-rails'
   gem 'guard-rspec'
-  gem 'guard-spork'
   gem 'libnotify', :require => false
   gem 'growl', :require => false
 
