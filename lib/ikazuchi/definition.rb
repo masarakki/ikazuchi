@@ -27,11 +27,11 @@ module Ikazuchi
 
     class << self
       def require!(*groups)
-        self.new.require!(*groups)
+        new.require!(*groups)
       end
 
       def dependencies
-        self.new.dependencies
+        new.dependencies
       end
     end
   end
