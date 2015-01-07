@@ -13,6 +13,7 @@ group :development, :test do
   gem 'guard-rspec'
   gem 'guard-bundler'
   gem 'guard-rubocop'
+  gem 'guard-brakeman'
   gem 'spring-commands-rspec'
   gem 'rspec-rails'
   gem 'libnotify', require: false
@@ -23,6 +24,7 @@ group :development, :test do
   gem 'simplecov-rcov', require: false
   gem 'ci_reporter_rspec', require: false
   gem 'rubocop'
+  gem 'brakeman'
 
   gem 'pry'
   gem 'pry-rails'
