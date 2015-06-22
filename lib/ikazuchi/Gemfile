@@ -16,6 +16,7 @@ group :development, :test do
   gem 'guard-brakeman'
   gem 'spring-commands-rspec'
   gem 'rspec-rails'
+  gem 'rspec-its'
   gem 'libnotify', require: false
   gem 'growl', require: false
 
