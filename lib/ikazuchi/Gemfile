@@ -5,6 +5,7 @@ gem 'http_accept_language'
 
 group :development do
   gem 'bullet'
+  gem 'rack-mini-profiler'
 end
 
 group :development, :test do
@@ -39,5 +40,8 @@ group :development, :test do
   gem 'awesome_print'
 
   gem 'quiet_assets'
-  gem 'rack-mini-profiler'
+end
+
+group :test do
+  gem 'webmock', require: false
 end
