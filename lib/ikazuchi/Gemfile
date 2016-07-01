@@ -42,8 +42,6 @@ group :development, :test do
   gem 'binding_of_caller'
   gem 'tapp'
   gem 'awesome_print'
-
-  gem 'quiet_assets'
 end
 
 group :test do
