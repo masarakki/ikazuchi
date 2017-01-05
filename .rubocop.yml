@@ -1,6 +1,8 @@
+Bundler/OrderedGems:
+  Enabled: false
+Metrics/BlockLength:
+  Enabled: false
 Metrics/LineLength:
   Enabled: false
 Style/Documentation:
   Enabled: false
-Style/RegexpLiteral:
-  MaxSlashes: 0
