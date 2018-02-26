@@ -24,7 +24,7 @@ group :development, :test do
   gem 'libnotify', require: false
   gem 'growl', require: false
 
-  gem 'factory_girl_rails'
+  gem 'factory_bot_rails'
   gem 'simplecov', require: false
   gem 'simplecov-rcov', require: false
   gem 'ci_reporter_rspec', require: false
