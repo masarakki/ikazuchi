@@ -18,6 +18,7 @@ group :development, :test do
   gem 'guard-bundler'
   gem 'guard-rubocop'
   gem 'guard-brakeman'
+  gem 'guard-yarn'
   gem 'spring-commands-rspec'
   gem 'rspec-rails'
   gem 'rspec-its'
