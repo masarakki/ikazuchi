@@ -2,11 +2,11 @@ require 'bundler'
 module Ikazuchi
   class Definition
     def root
-      @root ||= File.expand_path '../../../', __FILE__
+      @root ||= File.expand_path '../..', __dir__
     end
 
     def gemfile
-      @gemfile ||= File.expand_path '../Gemfile', __FILE__
+      @gemfile ||= File.expand_path 'Gemfile', __dir__
     end
 
     def definition
