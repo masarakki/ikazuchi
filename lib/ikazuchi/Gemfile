@@ -30,6 +30,7 @@ group :development, :test do
   gem 'simplecov-rcov', require: false
   gem 'ci_reporter_rspec', require: false
   gem 'rubocop', require: false
+  gem 'rubocop-rspec', require: false
   gem 'brakeman', require: false
 
   gem 'byebug'
