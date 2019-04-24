@@ -1,3 +1,6 @@
+require:
+  - rubocop-rspec
+  - rubocop-performance
 Bundler/OrderedGems:
   Enabled: false
 Metrics/BlockLength:
