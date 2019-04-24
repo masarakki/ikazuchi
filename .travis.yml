@@ -10,3 +10,6 @@ before_install:
 script:
   - bundle exec rubocop
   - bundle exec rake spec
+branches:
+  only:
+    - master
